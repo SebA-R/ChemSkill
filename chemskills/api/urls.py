@@ -3,9 +3,9 @@ from .views import index, ClassroomView, CreateClassroomView, JoinClassroomView,
 
 urlpatterns = [
     path('', index),
-    path('room', ClassroomView.as_view()),
-    path('create-room', CreateClassroomView.as_view()),
-    path('join-room', JoinClassroomView.as_view()),
+    path('classroom', ClassroomView.as_view()),
+    path('create-classroom', CreateClassroomView.as_view()),
+    path('join-classroom', JoinClassroomView.as_view()),
     path('user', UserView.as_view()),
-    path('create-user', CreateUserView.as_view())
+    path('create-user', CreateUserView.as_view()),
 ]

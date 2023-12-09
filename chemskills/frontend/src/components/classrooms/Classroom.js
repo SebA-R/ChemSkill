@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 const ClassRoomJoin = () => {
-  const [userName, setUserName] = useState('John Doe');
+  const [username, setUserName] = useState('John Doe');
+  const [currentChapter, setCurrentChapter] = useState('Chapter 1');
+
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/user')  // Replace with your API endpoint
-      .then(response => response.json())
-      .then(data => {
-        setUserName(data.userName);
-      })
-      .catch(error => console.error('Error:', error));
+    setUserName(sessionStorage.getItem('username'));
+    setCurrentChapter(sessionStorage.getItem('currentChapter'));
   }, []);
 
   return (
@@ -25,19 +23,9 @@ const ClassRoomJoin = () => {
   </nav>
 
   {/* Dashboard Content */ }
-    <h1>Welcome, {userName}!</h1>
+    <h1>Welcome, {username}!</h1>
     <p>You are currently studying: {currentChapter}</p>
 
-    <h2>Resources:</h2>
-    <ul>
-      {resources.map((resource, index) => (
-        <li key={index}>
-          <a href={resource.link} target="_blank" rel="noopener noreferrer">
-            {resource.title}
-          </a>
-        </li>
-      ))}
-    </ul>
       </div>
     );
 

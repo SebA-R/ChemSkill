@@ -3,6 +3,8 @@ import { render } from "react-dom";
 import HomePage from "./HomePage";
 import ClassroomJoin from "./classrooms/ClassroomJoinPage";
 import Classroom from "./classrooms/Classroom";
+import Login from "./login-register/Login";
+import Register from "./login-register/Register";
 import {
     BrowserRouter,
     Routes,
@@ -21,7 +23,9 @@ export default class App extends Component {
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/classroom-join" element={<ClassroomJoin/>} />
-          <Route path="/classroom" element={<Classroom/>} />
+          <Route path="/classroom" element={<Classroom />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </BrowserRouter>
     );
