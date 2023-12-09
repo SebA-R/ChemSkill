@@ -20,11 +20,22 @@ export default class ChemistryDashboard extends Component {
     };
   }
 
+  button() {
+    return (
+      <div>
+        <button type="button" onClick={this.handleClick}>
+          Join
+        </button>
+      </div>
+      );
+    }
+
   render() {
     const { userName, currentChapter, resources } = this.state;
 
     return (
       <div>
+<<<<<<< HEAD
         {/* Navigation Bar */}
         <nav>
           <ul>
@@ -51,6 +62,9 @@ export default class ChemistryDashboard extends Component {
             ))}
           </ul>
         </div>
+=======
+        <p>This is not a Classroom page</p>
+>>>>>>> fa6db9d35fe78519108400ab800dc57f0cbe2592
       </div>
     );
   }
