@@ -8,7 +8,10 @@ export default class HomePage extends Component {
 
   render() {
     return (
-      <p>This is the homepage</p>
+      <div>
+        <a href='/classroom-join'>Join a Classroom</a>
+        <a href='/classroom-create'>Create a Classroom</a>
+      </div>
     );
   }
 }

@@ -10,12 +10,13 @@ def generate_unique_code():
     
 class User(models.Model):
     username = models.CharField(max_length=32, default="")
-    password = models.CharField(max_length=64, default="")
+    password = models.CharField(max_length=256, default="")
     email = models.CharField(max_length=64, default="")
     first_name = models.CharField(max_length=32, default="")
     last_name = models.CharField(max_length=32, default="")
     is_teacher = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
+    classrooms = models.CharField(max_length=640, default="")
 
 class Classroom(models.Model):
     code = models.CharField(max_length=8, default=generate_unique_code, unique=True)
