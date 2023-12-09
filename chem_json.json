@@ -1,0 +1,477 @@
+{
+    "cation": {
+        "Lithium":{
+            "Periodic table name": "Li",
+            "Charge": 1
+        },
+        "Sodium":{
+            "Periodic table name": "Na",
+            "Charge": 1
+        },
+        "Potassium":{
+            "Periodic table name": "K",
+            "Charge": 1
+        },
+        "Rubidium":{
+            "Periodic table name": "Rb",
+            "Charge": 1
+        },
+        "Caesium":{
+            "Periodic table name": "Cs",
+            "Charge": 1
+        },
+        "Beryllium":{
+            "Periodic table name": "Be",
+            "Charge": 2
+        },
+        "Magnesium":{
+            "Periodic table name": "Mg",
+            "Charge": 2
+        },
+        "Calcium":{
+            "Periodic table name": "Ca",
+            "Charge": 2
+        },
+        "Strontium":{
+            "Periodic table name": "Sr",
+            "Charge": 2
+        },
+        "Barium":{
+            "Periodic table name": "Ba",
+            "Charge": 2
+        },
+        "Silver":{
+            "Periodic table name": "Ag",
+            "Charge": 1
+        },
+        "Zinc":{
+            "Periodic table name": "Zn",
+            "Charge": 2
+        },
+        "Cadmium":{
+            "Periodic table name": "Cd",
+            "Charge": 2
+        },
+        "Aluminum":{
+            "Periodic table name": "Al",
+            "Charge": 3
+        }
+    },
+    "anion": {
+        "fluoride":{
+            "Periodic table name": "F",
+            "Charge": -1
+        },
+        "chloride":{
+            "Periodic table name": "Cl",
+            "Charge": -1
+        },
+        "bromide":{
+            "Periodic table name": "Br",
+            "Charge": -1
+        },
+        "iodide":{
+            "Periodic table name": "I",
+            "Charge": -1
+        },
+        "oxide":{
+            "Periodic table name": "O",
+            "Charge": -2
+        },
+        "sulfide":{
+            "Periodic table name": "S",
+            "Charge": -2
+        },
+        "selenide":{
+            "Periodic table name": "Se",
+            "Charge": -2
+        },
+        "nitride":{
+            "Periodic table name": "N",
+            "Charge": -3
+        },
+        "phosphide":{
+            "Periodic table name": "P",
+            "Charge": -3
+        }
+    },
+    "nonmetal": {
+        "Fluorine":{
+            "Periodic table name": "F",
+            "Charge": -1
+        },
+        "Chlorine":{
+            "Periodic table name": "Cl",
+            "Charge": -1
+        },
+        "Bromine":{
+            "Periodic table name": "Br",
+            "Charge": -1
+        },
+        "Iodine":{
+            "Periodic table name": "I",
+            "Charge": -1
+        },
+        "Oxygen":{
+            "Periodic table name": "O",
+            "Charge": -2
+        },
+        "Sulfur":{
+            "Periodic table name": "S",
+            "Charge": -2
+        },
+        "Selenium":{
+            "Periodic table name": "Se",
+            "Charge": -2
+        },
+        "Nitrogen":{
+            "Periodic table name": "N",
+            "Charge": -3
+        },
+        "Phosphorus":{
+            "Periodic table name": "P",
+            "Charge": -2
+        },
+        "Hydrogen":{
+            "Periodic table name": "H",
+            "Charge": 1
+        }
+    },
+    "polyatomic cation": {
+        "Ammonium":{
+            "Periodic table name": "NH4",
+            "Charge": 1
+        }
+    },
+    "polyatomic anion": {
+        "acetate":{
+            "Periodic table name": ["C2H3O2", "CH3COO"],
+            "Charge": -1
+        },
+        "carbonate":{
+            "Periodic table name": "CO3",
+            "Charge": -2
+        },
+        "carbonite":{
+            "Periodic table name": "CO2",
+            "Charge": -2
+        },
+        "bicarbonate":{
+            "Periodic table name": "HCO3",
+            "Charge": -1
+        },
+        "bicarbonite":{
+            "Periodic table name": "HCO2",
+            "Charge": -1
+        },
+        "hydrogen carbonate":{
+            "Periodic table name": "HCO3",
+            "Charge": -1
+        },
+        "hydrogen carbonite":{
+            "Periodic table name": "HCO2",
+            "Charge": -1
+        },
+        "chlorate":{
+            "Periodic table name": "ClO3",
+            "Charge": -1
+        },
+        "chlorite":{
+            "Periodic table name": "ClO2",
+            "Charge": -1
+        },
+        "chromate":{
+            "Periodic table name": "CrO4",
+            "Charge": -2
+        },
+        "dichromate":{
+            "Periodic table name": "Cr2O7",
+            "Charge": -2
+        },
+        "cyanide":{
+            "Periodic table name": "CN",
+            "Charge": -1
+        },
+        "bisulfate":{
+            "Periodic table name": "HSO4",
+            "Charge": -1
+        },
+        "bisulfite":{
+            "Periodic table name": "HSO3",
+            "Charge": -1
+        },
+        "hydrogen sulfate":{
+            "Periodic table name": "HSO4",
+            "Charge": -1
+        },
+        "hydrogen sulfite":{
+            "Periodic table name": "HSO3",
+            "Charge": -1
+        },
+        "hydroxide":{
+            "Periodic table name": "OH",
+            "Charge": -1
+        },
+        "hypochlorite":{
+            "Periodic table name": "ClO",
+            "Charge": -1
+        },
+        "nitrate":{
+            "Periodic table name": "NO3",
+            "Charge": -1
+        },        
+        "nitrite":{
+            "Periodic table name": "NO2",
+            "Charge": -1
+        },
+        "oxalate":{
+            "Periodic table name": "C2O4",
+            "Charge": -2
+        },
+        "perchlorate":{
+            "Periodic table name": "ClO4",
+            "Charge": -1
+        },
+        "permanganate":{
+            "Periodic table name": "MnO4",
+            "Charge": -1
+        },
+        "phosphate":{
+            "Periodic table name": "PO4",
+            "Charge": -3
+        },
+        "sulfate":{
+            "Periodic table name": "SO4",
+            "Charge": -2
+        },
+        "sulfite":{
+            "Periodic table name": "SO3",
+            "Charge": -2
+        },
+        "peroxide":{
+            "Periodic table name": "O2",
+            "Charge": -2
+        },
+        "hydrogen phosphate":{
+            "Periodic table name": "HPO4",
+            "Charge": -2
+        },
+        "dihydrogen phosphate":{
+            "Periodic table name": "H2PO4",
+            "Charge": -2
+        },
+        "iodate":{
+            "Periodic table name":"IO3",
+            "Charge": -1
+        },
+        "bromate":{
+            "Periodic table name":"BrO3",
+            "Charge": -1
+        },
+        "fluorate":{
+            "Periodic table name":"FO3",
+            "Charge": -1
+        },
+        "hypoiodate":{
+            "Periodic table name":"IO2",
+            "Charge": -1
+        },
+        "hypobromate":{
+            "Periodic table name":"BrO2",
+            "Charge": -1
+        },
+        "hypofluorate":{
+            "Periodic table name":"FO2",
+            "Charge": -1
+        },
+        "periodate":{
+            "Periodic table name":"IO4",
+            "Charge": -1
+        },
+        "perbromate":{
+            "Periodic table name":"BrO4",
+            "Charge": -1
+        },
+        "perfluorate":{
+            "Periodic table name":"FO4",
+            "Charge": -1
+        },
+        "thiosulfate":{
+            "Periodic table name":"S2O3",
+            "Charge": -2
+        },
+        "thiosulfite":{
+            "Periodic table name":"S2O2",
+            "Charge": -2
+        },
+        "thiocyanate":{
+            "Periodic table name":"SCN",
+            "Charge": -1
+        },
+        "cyanate":{
+            "Periodic table name":"OCN",
+            "Charge": -1
+        }
+    }, 
+    "multivalent cation": {
+        "Chromium(II)": {
+            "Periodic table name": "Cr",
+            "Latin name": "Chromous",
+            "Charge": 2
+        },
+        "Chromium(III)": {
+            "Periodic table name": "Cr",
+            "Latin name": "Chromic",
+            "Charge": 3
+        },
+        "Manganese(II)": {
+            "Periodic table name": "Mn",
+            "Latin name": "Manganous",
+            "Charge": 2
+        },
+        "Manganese(III)": {
+            "Periodic table name": "Mn",
+            "Latin name": "Manganic",
+            "Charge": 3
+        },
+        "Iron(II)": {
+            "Periodic table name": "Fe",
+            "Latin name": "Ferrous",
+            "Charge": 2
+        },
+        "Iron(III)": {
+            "Periodic table name": "Fe",
+            "Latin name": "Ferric",
+            "Charge": 3
+        },
+        "Mercury(I)": {
+            "Periodic table name": "Hg2",
+            "Latin name": "Mercurous",
+            "Charge": 2
+        },
+        "Mercury(II)": {
+            "Periodic table name": "Hg",
+            "Latin name": "Mercuric",
+            "Charge": 2
+        },
+        "Copper(I)": {
+            "Periodic table name": "Cu",
+            "Latin name": "Cuprous",
+            "Charge": 1
+        },
+        "Copper(II)": {
+            "Periodic table name": "Cu",
+            "Latin name": "Cupric",
+            "Charge": 2
+        },
+        "Cobalt(II)": {
+            "Periodic table name": "Co",
+            "Latin name": "Cobaltous",
+            "Charge": 2
+        },
+        "Cobalt(III)": {
+            "Periodic table name": "Co",
+            "Latin name": "Cobaltic",
+            "Charge": 3
+        },
+        "Tin(II)": {
+            "Periodic table name": "Sn",
+            "Latin name": "Stannous",
+            "Charge": 2
+        },
+        "Tin(IV)": {
+            "Periodic table name": "Sn",
+            "Latin name": "Stannic",
+            "Charge": 4
+        },
+        "Lead(II)": {
+            "Periodic table name": "Pb",
+            "Latin name": "Plumbous",
+            "Charge": 2
+        },
+        "Lead(IV)": {
+            "Periodic table name": "Pb",
+            "Latin name": "Plumbic",
+            "Charge": 4
+        },
+        "Gold(I)": {
+            "Periodic table name": "Au",
+            "Latin name": "Aurous",
+            "Charge": 1
+        },
+        "Gold(III)": {
+            "Periodic table name": "Au",
+            "Latin name": "Auric",
+            "Charge": 3
+        },
+        "Nickel(II)": {
+            "Periodic table name": "Ni",
+            "Latin name": "Nickelous",
+            "Charge": 2
+        },
+        "Chromium": {
+            "Periodic table name": "Ni",
+            "Latin name": "Nickelic",
+            "Charge": 3
+        }
+        
+        
+    },
+    "acid":{
+        "Hydronitric acid": "H3N(aq)",
+        "Hydrophosphoric acid": "H3P(aq)",
+        "Hydrosulfuric acid": "H2S(aq)",
+        "Hydroselenic acid": "H2Se(aq)",
+        "Hydrofluoric acid": "HF(aq)",
+        "Hydrochloric acid": "HCl(aq)",
+        "Hydrobromic acid": "HBr(aq)",
+        "Hydroiodic acid": "HI(aq)",
+        "Nitric acid": "HNO3(aq)",
+        "Nitrous acid": "HNO2(aq)",
+        "Chloric acid": "HClO3(aq)",
+        "Chlorous acid": "HClO2(aq)",
+        "Perchloric acid": "HClO4(aq)",
+        "Hypochlorous acid": "HClO(aq)",
+        "Iodic acid": "HIO3(aq)",
+        "Iodous acid": "HIO2(aq)",
+        "Periodic acid": "HIO4(aq)",
+        "Hypoiodous acid": "HIO(aq)",
+        "Bromic acid": "HBrO3(aq)",
+        "Bromous acid": "HBrO2(aq)",
+        "Perbromic acid": "HBrO4(aq)",
+        "Hypobromous acid": "HBrO(aq)",
+        "Fluoric acid": "HFO3(aq)",
+        "Fluorous acid": "HFO2(aq)",
+        "Perfluoric acid": "HFO4(aq)",
+        "Hypofluorous acid": "HFO(aq)",
+        "Carbonic acid": "H2CO3(aq)",
+        "Carbonous acid": "H2CO2(aq)",
+        "Sulfuric acid": "H2SO4(aq)",
+        "Sulfurous acid": "H2SO3(aq)",
+        "Thiosulfuric acid": "H2S2O3(aq)",
+        "Thiosulfurous acid": "H2S2O2(aq)",
+        "Hyposulfurous acid": "H2SO2(aq)",
+        "Phosphoric acid": "H3PO4(aq)",
+        "Phosphorous acid": "H3PO3(aq)",
+        "Chromic acid": "H2CrO4(aq)",
+        "Dichromic acid": "H2Cr2O7(aq)",
+        "Oxalic acid": ["H2C2O4(aq)", "C2H2O4(aq)"],
+        "Acetic acid": ["HC2H3O2(aq)", "HCH3COO(aq)", "CH3COOH(aq)"],
+        "Permanganic acid": "HMnO4(aq)",
+        "Hydrocyanic acid": "HCN(aq)",
+        "Cyanic acid": "HOCN(aq)"
+    },
+    "prefix":[
+        "mono",
+        "di",
+        "tri",
+        "tetra",
+        "penta",
+        "hexa",
+        "hepta",
+        "octa",
+        "nona",
+        "deca"
+    ]
+
+}
