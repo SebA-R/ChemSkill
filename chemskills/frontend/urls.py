@@ -8,4 +8,7 @@ urlpatterns = [
     path('classroom-create', index),
     path('login', index),
     path('register', index),
+    path('find-mass', index),
+    path('find-mol', index),
+    path('find-lim-reag', index),
 ]

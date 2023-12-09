@@ -5,6 +5,9 @@ import ClassroomJoin from "./classrooms/ClassroomJoinPage";
 import Classroom from "./classrooms/Classroom";
 import Login from "./login-register/Login";
 import Register from "./login-register/Register";
+import FindMass from "./find/Mass";
+import FindMol from "./find/Mol";
+import FindLimReag from "./find/LimReag";
 import {
     BrowserRouter,
     Routes,
@@ -26,6 +29,10 @@ export default class App extends Component {
           <Route path="/classroom" element={<Classroom />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/find-mass" element={<FindMass />} />
+          <Route path="/find-mol" element={<FindMol />} />
+          <Route path="/find-lim-reag" element={<FindLimReag />} />
+          <Route path="*">"404 Not Found"</Route> 
         </Routes>
       </BrowserRouter>
     );

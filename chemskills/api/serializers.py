@@ -11,6 +11,11 @@ class ClassroomSerializer(serializers.ModelSerializer):
         model = Classroom
         fields = ('id', 'code', 'name', 'teachers', 'students', 'created_at')
 
+class JoinClassroomSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Classroom
+        fields = ('code',)
+
 
 class CreateClassroomSerializer(serializers.ModelSerializer):
     class Meta:

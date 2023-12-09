@@ -9,8 +9,9 @@ export default class HomePage extends Component {
   render() {
     return (
       <div>
-        <a href='/classroom-join'>Join a Classroom</a>
-        <a href='/classroom-create'>Create a Classroom</a>
+        <a href='/find-mass'>Get quizzed</a>
+        <a href='/find-mol'>Get quizzed on molar mass!</a>
+        <a href='/find-lim-reag'>Get quizzed on limiting reagents!</a>
       </div>
     );
   }
