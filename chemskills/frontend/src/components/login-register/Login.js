@@ -48,22 +48,24 @@ const Login = () => {
     <div>
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="username">Username:</label>
+        <div className="form-group">
+          <label htmlFor="username" className="form-label">Username:</label>
           <input
             type="text"
             id="username"
             value={username}
             onChange={handleUsernameChange}
+            className="form-input"
           />
         </div>
-        <div>
-          <label htmlFor="password">Password:</label>
+        <div className="form-group">
+          <label htmlFor="password" className="form-label">Password:</label>
           <input
             type="password"
             id="password"
             value={password}
             onChange={handlePasswordChange}
+            className="form-input"
           />
         </div>
         <button type="submit">Login</button>

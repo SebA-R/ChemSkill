@@ -1,6 +1,104 @@
-html, body {
-    height: 100%;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #38b6ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px; /* Adjusted margin for spacing */
+    color: #38b6ff;
+    display: block; /* Ensures labels are displayed in block format */
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+.styled-input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 250px;
+    border: 1px solid #38b6ff;
+    border-radius: 4px;
+}
+
+button[type='submit'] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5ce1e6;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+    background-color: rgba(92, 225, 230, 0.8);
+}
+
+.teacher-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.teacher-checkbox label {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 400px; /* Adjust width as needed */
+    width: 100%;
+    /* Additional styles for the container */
+  }
+  
+  .container h2 {
+    color: #38b6ff;
+    margin-bottom: 20px;
+  }
+  
+  .container .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container .button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #5ce1e6;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container .button:hover {
+    background-color: rgba(92, 225, 230, 0.8);
+  }

@@ -8,7 +8,6 @@ const Register = () => {
     const [last_name, setLastName] = useState('');
     const [is_teacher, setIsTeacher] = useState(false);
 
-
     const handleUsernameChange = (e) => {
         setUsername(e.target.value);
     };
@@ -30,14 +29,13 @@ const Register = () => {
     };
 
     const handleIsTeacherChange = (e) => {
-        setIsTeacher(e.target.value);
+        setIsTeacher(e.target.checked);
     };
-
 
     const handleSubmit = (e) => {
         e.preventDefault();
         // Check if username is already taken
-        fetch(`http://localhost:8000/api/user?format=json&username=${username}`)
+        fetch('http://localhost:8000/api/user?format=json&username=${username}')
             .then(response => response.json())
             .then(data => {
                 if (data.length > 0) {
@@ -47,8 +45,6 @@ const Register = () => {
                 }
             })
             .catch(error => console.error('Error:', error));
-        
-
     };
 
     return (
@@ -70,7 +66,8 @@ const Register = () => {
                         type="password"
                         id="password"
                         value={password}
-                        onChange={handlePasswordChange} />
+                        onChange={handlePasswordChange}
+                    />
                 </div>
                 <div>
                     <label htmlFor="email">Email:</label>
@@ -78,7 +75,9 @@ const Register = () => {
                         type="email"
                         id="email"
                         value={email}
-                        onChange={handleEmailChange} />
+                        onChange={handleEmailChange}
+                        className="styled-input"
+                    />
                 </div>
                 <div>
                     <label htmlFor="first_name">First Name:</label>
@@ -86,25 +85,26 @@ const Register = () => {
                         type="text"
                         id="first_name"
                         value={first_name}
-                        onChange={handleFirstNameChange} />
-                    <div>
-                        <label htmlFor="last_name">Last Name:</label>
-                        <input
-                            type="text"
-                            id="last_name"
-                            value={last_name}
-                            onChange={handleLastNameChange}
-                        />
-                    </div>
-                    <div>
-                        <label htmlFor="is_teacher">Are you a Teacher?</label>
-                        <input
-                            type="checkbox"
-                            id="is_teacher"
-                            value={is_teacher}
-                            onChange={handleIsTeacherChange}
-                        />
-                    </div>
+                        onChange={handleFirstNameChange}
+                    />
+                </div>
+                <div>
+                    <label htmlFor="last_name">Last Name:</label>
+                    <input
+                        type="text"
+                        id="last_name"
+                        value={last_name}
+                        onChange={handleLastNameChange}
+                    />
+                </div>
+                <div className="teacher-checkbox">
+                    <label htmlFor="is_teacher">Are you a Teacher?</label>
+                    <input
+                        type="checkbox"
+                        id="is_teacher"
+                        checked={is_teacher}
+                        onChange={handleIsTeacherChange}
+                    />
                 </div>
                 <button type="submit">Register</button>
             </form>
