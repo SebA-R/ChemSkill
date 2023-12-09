@@ -5,10 +5,20 @@ export default class ClassRoomJoin extends Component {
     super(props);
   }
 
+  button() {
+    return (
+      <div>
+        <button type="button" onClick={this.handleClick}>
+          Join
+        </button>
+      </div>
+      );
+    }
+
   render() {
     return (
       <div>
-        <p>This is the Classroom page</p>
+        <p>This is not a Classroom page</p>
       </div>
     );
   }
