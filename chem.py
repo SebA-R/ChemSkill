@@ -53,6 +53,20 @@ def find_mass():
         print("correct")
     else:
         print("incorrect, the answer is: "+str(ans)+"g")
+
+def find_mol():
+    elm = random.randint(0,117)
+    m1 = Molar_mass[Elements[elm]]*random.randint(1,5)+random.randint(1,40)
+    print("How many mols of "+Elements[elm]+" are present if there is "+str(m1)+"g?(round to the tenth decimal place)")
+    
+    ans = m1/Molar_mass[Elements[elm]]
+    ans = round(ans,1)
+    #ans input here
+    user_input = float(input())
+    if (user_input==ans):
+        print("correct")
+    else:
+        print("incorrect, the answer is: "+str(ans)+" mols.")
     
 def lim_reag():
     elm1 = metal()
@@ -83,4 +97,5 @@ def lim_reag():
         print("incorrect, the answer is: "+ans)
 
 find_mass()
+find_mol()
 lim_reag()
