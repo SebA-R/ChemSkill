@@ -24,6 +24,8 @@ function findMol() {
     }
 }
 
-while (true) {
-    findMol();
+if (window.location.href.endsWith("find-mol")) {
+    while (true) {
+        findMol();
+    }
 }

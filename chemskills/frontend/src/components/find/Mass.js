@@ -25,6 +25,8 @@ function find_mass() {
     }
 }
 
-while (true) {
-    find_mass();
+if (window.location.href.endsWith("find-mass")) {
+    while (true) {
+        find_mass();
+    }
 }

@@ -46,9 +46,9 @@ function limReag() {
     }
 }
 
-
-while (true) {
-    limReag();
+if (window.location.href.endsWith("find-lim-reag")) {
+    while (true) {
+        limReag();
+    }
 }
-
 
